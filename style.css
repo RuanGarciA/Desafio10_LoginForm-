@@ -1,0 +1,83 @@
+:root {
+    --text-base: #afb6c2;
+    --text-title: #d4ccb6;
+    --background: #191816;
+    --form-background: #24221f;
+    --primary-color: #ffc632;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    height: 900px;
+
+}
+
+main section{
+    width: 50%;
+    height: 100%;
+
+    background-color: var(--background);
+
+ }
+
+
+main .bg-side{
+    width: 50%;
+    height: 100%;
+
+  /*  height: 50%;
+    width: 50%;*/
+
+}
+
+
+main .bg-side img{ 
+    width: 45em;
+    height: 56.25em;
+
+}
+
+
+
+
+
+main section .logo{
+    width: 128px;
+    height: 28px;
+    margin: 40px 40px;
+    position: absolute;
+
+
+}
+
+
+
+
+section form .form{
+    margin: 194px 74px;
+    width: 512px;
+    height: 512px;
+    
+    background-color: var(--form-background);
+    color: var(--text-base);
+
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+
+    gap: 1.8em;
+    padding-top: 55px;
+}
+
+.form div{
+    margin: 0;
+}
